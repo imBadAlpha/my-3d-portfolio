@@ -22,8 +22,10 @@ const Navbar = () => {
             window.scrollTo(0,0);
           }}
         >
-          <img src={logo} alt="logo" className='w-9 h-9 object-contain' />
+          <img src={logo} alt="logo" className='w-4 h-4 object-contain' />
+          <p className='text-white text-[18px] font-bold cursor-pointer'> <span className='sm:block-hidden'>Romeo Nombre Jr.</span> </p>
         </Link>
+        <p className='text-red-500'>asdf</p>
       </div>
     </nav>
   )
