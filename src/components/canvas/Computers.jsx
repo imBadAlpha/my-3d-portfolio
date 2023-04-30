@@ -27,7 +27,7 @@ function Computers() {
         <primitive
           object={computer.scene}
           scale={0.15}
-          position={[0, -3.50, -1.25]}
+          position={[0, -3.50, -1.05]}
           rotation={[0, 45.3, 0]}
         />
         <OrbitControls
